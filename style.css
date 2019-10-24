@@ -1,10 +1,14 @@
-@media only screen and (max-width: 768px) {
+body{
+  background-color: lightskyblue;
+  }
+
+  @media only screen and (max-width: 768px) {
   body {
-    background-color: honeydew;
+    background-color: rgb(107, 214, 107);
   }
   }
   @media only screen and (max-width: 640px) {
     body {
-      background-color: greenyellow;
+      background-color: rgb(194, 158, 111);
     }
   }
