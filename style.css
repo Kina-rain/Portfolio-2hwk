@@ -1,17 +1,5 @@
-body{
-  background-color: lightskyblue;
-  }
-
-  @media (max-width: 768px) {
-  body {
-    background-color: rgb(107, 214, 107);
-    font-size: 1.5rem;
-      }
-  .navbar-brand{
-    font-size: 1.5rem;
-  }
-  }
-  @media (max-width: 540px) {
+ 
+ @media (min-width: 544px) {
     body {
       background-color: rgb(194, 158, 111);
       font-size: 2rem;
@@ -20,3 +8,22 @@ body{
       font-size: 2rem;
     }
   }
+   
+    @media (min-width: 768px) {
+    body {
+      background-color: rgb(107, 214, 107);
+      font-size: 1.5rem;
+        }
+    .navbar-brand{
+      font-size: 1.5rem;
+    }
+    }
+    
+
+    @media (min-width: 992px) {
+      body{
+        background-color: lightskyblue;
+        }
+      }
+      
+  
